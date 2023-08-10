@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { AutenticacaoLayoutComponent } from './layouts/autenticacao-layout/autenticacao-layout.component';
+import { ContatoComponent } from './components/contato/contato.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InicioComponent,
+    AutenticacaoLayoutComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
