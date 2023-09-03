@@ -12,9 +12,9 @@ const routes: Routes = [
   children: [
     { path: 'inicio', component: InicioComponent},
     { path: 'contato', component: ContatoComponent}
-
-  ] }
-];
+  ]
+ }
+ ];
 
 @NgModule({
   declarations: [],
