@@ -1,1 +1,66 @@
-<p>contato works!</p>
+<h3><strong>Aproveite nossas ofertas | Contate-nos</strong></h3>
+<br>
+<form class="w-90" [formGroup]="contatoForm" (ngSubmit)="onSubmit()">
+    <label for="nome">Nome do cliente</label>
+    <input 
+        type="text" 
+        class="form-control mb-3" 
+        id="nome" 
+        placeholder="Insira seu nome completo" 
+        name="nome" 
+        formControlName="nome">
+    
+    <label for="cpf">CPF</label>
+    <input 
+        type="text" 
+        class="form-control mb-3" 
+        id="cpf" 
+        placeholder="000.000.000-00" 
+        name="cpf" 
+        formControlName="cpf" >
+
+    <label for="email">E-mail</label>
+    <input 
+            type="email" 
+            class="form-control mb-3" 
+            id="email" 
+            placeholder="teste@email.com" 
+            name="email" 
+            formControlName="email" >
+    
+    <label for="telefone">Telefone</label>
+    <input 
+        type="text" 
+        class="form-control mb-3" 
+        id="telefone" 
+        placeholder="(99) 9 9999-9999" 
+        name="telefone" 
+        formControlName="telefone" 
+        mask="(00) 0 0000-0000">
+    
+    <label for="valorOferta">Valor da oferta</label>
+    <select class="form-control mb-3" id="valorOferta" name="valorOferta" formControlName="valorOferta">
+        <option selected disabled>Selecione o valor da oferta:</option>
+        <option>R$ 50.390,00 - ONIX LTZ-Chevrolet, 2018, preto, 0 Km</option>
+        <option>R$ 80.990,00 - TRACKER LT-Chevrolet, 2018, preto, 0 Km</option>
+        <option>R$ 60.190,00 - PRISMA LTZ-Chevrolet, 2018, preto, 0 Km</option>
+        
+<!--        <option *ngFor="let oferta of ofertas">
+            {{ oferta.valorOferta }}
+        </option>
+    -->       
+    </select>
+    
+    <label for="mensagem">Mensagem de contato</label>
+    <textarea 
+            class="form-control mb-3" 
+            id="mensagem" 
+            rows="3"
+            placeholder="Insira um mensagem ou descrição de sua compra para o vendedor"
+            nome="mensagem"
+            formControlName="mensagem"></textarea>
+
+    
+<button type="submit" class="btn btn-primary" [disabled]="contatoForm.invalid">Enviar oferta</button>
+</form>
+<button type="button" class="btn btn-secondary mt-3" routerLink="/inicio">Voltar</button>
