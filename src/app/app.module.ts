@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { AutenticacaoLayoutComponent } from './layouts/autenticacao-layout/autenticacao-layout.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ContatoComponent } from './components/contato/contato.component';
+import { OfertasComponent } from './components/ofertas/ofertas.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContatoComponent } from './components/contato/contato.component';
     HeaderComponent,
     AutenticacaoLayoutComponent,
     InicioComponent,
-    ContatoComponent
+    ContatoComponent,
+    OfertasComponent
   ],
   imports: [
     BrowserModule,
