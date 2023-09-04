@@ -1,0 +1,58 @@
+{
+    "ofertas": [
+        {
+          "id": 1,
+          "valor": "R$ 50.390,00",
+          "marca": "Chevrolet",
+          "modelo": "ONIX LTZ",
+          "cor": "preto",
+          "ano": "2018",
+          "km": "0"
+        },
+        {
+          "id": 2,
+          "valor": "R$ 80.990,00",
+          "marca": "Chevrolet",
+          "modelo": "TRACKER LT",
+          "cor": "preto",
+          "ano": "2018",
+          "km": "0"
+        },
+        {
+          "id": 3,
+          "valor": "R$ 60.190,00",
+          "marca": "Chevrolet",
+          "modelo": "PRISMA LTZ",
+          "cor": "preto",
+          "ano": "2018",
+          "km": "0"
+        }
+      ],
+
+      "contatos": [
+        {
+          "id": 1,
+          "nome": "Alvaro Jose",
+          "email": "alvaroj@hotmail.com",
+          "telefone": "489978982753",
+          "valorOferta": "R$ 50.390,00 - ONIX LTZ-Chevrolet, 2018, preto, kilometragrem 0",
+          "mensagem": "Olá, desejo comprar este veículo"
+        },
+        {
+          "id": 2,
+          "nome": "Fernando Lion",
+          "email": "fernandolj@hotmail.com",
+          "telefone": "489978982764",
+          "valor da oferta": "R$ 80.990,00 - TRACKER LT-Chevrolet, 2018, preto, kilometragrem 0",
+          "mensagem": "Olá, desejo comprar este veículo"
+        },
+        {
+          "id": 3,
+          "nome": "Maxwel Alves",
+          "email": "mxwel@hotmail.com",
+          "telefone": "489978982746",
+          "valor da oferta": "R$ 60.190,00 - PRISMA LTZ-Chevrolet, 2018, preto, kilometragrem 0",
+          "mensagem": "Olá, desejo comprar este veículo"
+        }
+      ]
+}
